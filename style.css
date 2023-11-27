@@ -10,6 +10,11 @@ body {
   h2 {
     font-size: 20px;
   }
+
+  i {
+    justify-content: center;
+    background-color: transparent;
+  }
   
   input[type="text"], input[type="number"] {
     min-height: 15px;
@@ -35,14 +40,14 @@ body {
   }
   
   #top {
-    background-color: rgb(255, 255, 255);
-    margin: 2% 10%;
-    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
   }
   
-  #top img {
-    display: block;
-    width: 35%;
+  #top i {
+    
     margin: 0 auto;
   }
   
@@ -54,3 +59,4 @@ body {
     font-weight: bold;
     text-decoration: underline;
   }
+
